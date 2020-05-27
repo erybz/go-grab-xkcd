@@ -69,7 +69,7 @@ func (hc *XKCDClient) Fetch(n ComicNumber, save bool) (model.Comic, error) {
 
 // SaveToDisk downloads and saves the comic locally
 func (hc *XKCDClient) SaveToDisk(url, savePath string) error {
-	resp, err := http.Get(url)
+	resp, err := hc.client.Get(url)
 	if err != nil {
 		return err
 	}
