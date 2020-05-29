@@ -5,3 +5,7 @@ Pre-built binaries for Linux, MacOS and Windows of this application can be downl
 
 Feel free to make pull requests by adding features or fixing bugs.
 Remember, we all were once beginners.
+
+
+
+Checkout the [Rust](https://kbknapp.dev/rust-cli) version too
